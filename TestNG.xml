@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HybridFramework">
+
+	<listeners>
+		<listener class-name="com.hybrid.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<classes>
+			<class name="com.hybrid.testCases.TC001_LoginTest" />
+			<!--  <class name="com.inetbanking.testCases.TC_LoginDDT_002" />
+		 	<class name="com.inetbanking.testCases.TC_AddCustomerTest_003" /> -->
+
+		</classes>
+
+	</test>
+
+</suite>
